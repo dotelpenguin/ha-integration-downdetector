@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.DS_Store
+# Live captures can be large and change constantly; commit one deliberately if wanted.
+tests/fixtures/homepage_live.html
+
+# Claude desktop download folder
+Claude outputs/

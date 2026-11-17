@@ -1,0 +1,13 @@
+{
+  "domain": "downdetector",
+  "name": "Downdetector",
+  "codeowners": ["@dotelpenguin"],
+  "config_flow": true,
+  "documentation": "https://github.com/dotelpenguin/ha-integration-downdetector",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/dotelpenguin/ha-integration-downdetector/issues",
+  "requirements": ["curl_cffi>=0.7.0"],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

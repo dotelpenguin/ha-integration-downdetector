@@ -1,0 +1,14 @@
+{
+  "entity": {
+    "sensor": {
+      "pulse": {
+        "default": "mdi:pulse"
+      }
+    },
+    "button": {
+      "refresh": {
+        "default": "mdi:refresh"
+      }
+    }
+  }
+}

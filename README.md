@@ -49,7 +49,7 @@ services: [...]                  # all top 16, same shape, homepage order
 
 ## Install (HACS custom repository)
 
-1. HACS → ⋮ → **Custom repositories** → add this repo URL, type **Integration**.
+1. HACS → ⋮ → **Custom repositories** → add `https://github.com/dotelpenguin/ha-integration-downdetector`, type **Integration**.
 2. Install **Downdetector**, restart Home Assistant.
 3. **Settings → Devices & services → Add integration → Downdetector**.
 

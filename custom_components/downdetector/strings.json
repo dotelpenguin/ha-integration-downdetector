@@ -1,0 +1,51 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Downdetector (US)",
+        "description": "Monitors the \"most reported right now\" list on downdetector.com. Setup tests that the site can be reached from this Home Assistant host.",
+        "data": {
+          "scan_interval": "Refresh interval"
+        },
+        "data_description": {
+          "scan_interval": "How often to check, in minutes (30 minutes to 24 hours)."
+        }
+      }
+    },
+    "error": {
+      "blocked": "Downdetector blocked the request (Cloudflare). Try again later.",
+      "parse_error": "Downdetector was reached but the page format was not recognised.",
+      "cannot_connect": "Could not connect to downdetector.com.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "Downdetector is already configured.",
+      "single_instance_allowed": "Downdetector is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Downdetector options",
+        "data": {
+          "scan_interval": "Refresh interval"
+        },
+        "data_description": {
+          "scan_interval": "How often to check, in minutes (30 minutes to 24 hours)."
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "pulse": {
+        "name": "Pulse"
+      }
+    },
+    "button": {
+      "refresh": {
+        "name": "Refresh now"
+      }
+    }
+  }
+}
